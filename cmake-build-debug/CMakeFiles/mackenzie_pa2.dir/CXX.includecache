@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/DSString.h
+iostream
+-
+cstring
+-
+
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/DSVector.h
+iostream
+-
+sstream
+-
+
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/rwFile.cpp
+rwFile.h
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/rwFile.h
+sstream
+-
+
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/rwFile.h
+DSVector.h
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/DSVector.h
+wordPage.h
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/wordPage.h
+fstream
+-
+
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/wordPage.h
+DSString.h
+/mnt/c/Users/dalla/CLionProjects/21f-pa02-scott-mackenzie19/DSString.h
+
